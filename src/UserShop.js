@@ -12,16 +12,16 @@ const UserShop = () => {
                     <img src={Logo} alt="logo"></img>
                 </div>
                 <div className='right'>
-                    <div>
+                    <div className='right-list'>
                         <ul>
                             <li>
-                                Complain
+                                <a href=''>Complain</a>
                             </li>
                             <li>
-                                Profil
+                                <a href=''>Product</a>
                             </li>
                             <li>
-                                Logout
+                                <a href=''>Logout</a>
                             </li>
                         </ul>
                     </div>

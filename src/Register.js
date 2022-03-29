@@ -1,8 +1,8 @@
 import React from 'react'
-import './assets/Style.css'
+import './assets/Register.css'
 import Logo from './assets/logo.png'
 
-function Login() {
+function Register() {
   return (
     <div className="login">
       <div className='login-main'>
@@ -13,20 +13,21 @@ function Login() {
           <h1>Easy, Fast and Reliable</h1>
           <p>Go shopping for merchandise, just go to dumb merch shopping. the biggest merchandise in Indonesia</p>
           <div>
-            <button className='btn-login'>Login</button>
             <label>Register</label>
+            <button className='btn-login'>Register</button>
           </div>
         </div>
 
         <div className='login-right'>
           <div className='right'>
             <div className='right-main'>
-              <h3>Login</h3>
+              <h3>Register</h3>
               <div>
+                <input type='text' placeholder='name' />
                 <input type='email' placeholder='Email' />
                 <input type='password' placeholder='Password' />
               </div>
-              <button>Login</button>
+              <button>Register</button>
             </div>
           </div>
         </div>
@@ -35,4 +36,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Register;

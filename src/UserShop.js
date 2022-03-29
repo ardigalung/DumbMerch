@@ -18,7 +18,7 @@ const UserShop = () => {
                                 <a href=''>Complain</a>
                             </li>
                             <li>
-                                <a href=''>Product</a>
+                                <a href=''>Profil</a>
                             </li>
                             <li>
                                 <a href=''>Logout</a>

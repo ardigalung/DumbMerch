@@ -1,0 +1,85 @@
+*{
+    color: white;
+    background-color: #0B0B0B;
+}
+
+.navbar{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.navbar .left{
+    width: 50%;
+}
+.left img{
+    width: 70px;
+    margin-left: 20px;
+}
+.navbar .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right ul{
+    display: flex;
+}
+.right ul li{
+    margin-right: 2rem;
+    list-style-type: none;
+    font-weight: 500;
+}
+.page{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 75vh;
+}
+.page .page-content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.page-content .left-page{
+    width: 25%;
+}
+.left-page img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 4px;
+}
+.page-content .right{
+    width: 45%;
+    padding-left: 2rem;
+}
+.title{
+    color:#F74D4D ;
+    margin-bottom: 0;
+}
+.right-page p{
+    margin: 0;
+    font-size: 13px;
+    text-align: justify;
+} 
+.page-detail{
+    margin-top: 1rem;
+}
+.cash{
+    float: right;
+    font-weight: 500;
+    color:#F74D4D ;
+}
+button{
+    margin-top: 2rem;
+    background-color: #F74D4D;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+.right .right-page .stock{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

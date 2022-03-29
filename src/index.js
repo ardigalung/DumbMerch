@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import Login from './Login'
 //import App from './App.js'
-import Register from './Register.js'
+//import Register from './Register.js'
+import UserShop from './UserShop.js'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Register />
+    <UserShop />
+
 
   </React.StrictMode>,
   document.getElementById('root')

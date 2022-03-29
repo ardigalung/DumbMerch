@@ -5,13 +5,14 @@ import './index.css';
 //import Login from './Login'
 //import Register from './Register.js'
 //import UserShop from './UserShop.js'
-import DetailPage from './DetailPage.js'
+//import DetailPage from './DetailPage.js'
+import Profil from './Profil.js'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    < DetailPage />
+    < Profil />
 
 
   </React.StrictMode>,

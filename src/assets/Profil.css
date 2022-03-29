@@ -1,0 +1,145 @@
+*{
+    color: white;
+    background-color: #0B0B0B;
+}
+
+.navbar{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.navbar .left{
+    width: 50%;
+}
+.left img{
+    width: 70px;
+    margin-left: 20px;
+}
+.navbar .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right ul{
+    display: flex;
+}
+.right ul li{
+    margin-right: 2rem;
+    list-style-type: none;
+    font-weight: 500;
+}
+.product {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+.product-main{
+    margin-top: 20px;
+    width: 90%;
+}
+.list-product{
+    display: flex;
+}
+.card{
+    margin-right: 10px;
+    width:23% ;
+}
+.list-product img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 5px;
+}
+.profil{
+    color: #F74D4D;
+}
+h5{
+    margin: 0;
+    color: #F74D4D;
+}
+p{
+    margin-top: 0;
+    font-size: 14px;
+}
+.biodata{
+    padding-left:10px ;
+    width: 20rem;
+}
+
+.title-transaction{
+    margin-top: -3rem;
+    position: absolute;
+    width: 10rem;
+    padding-left: 4rem;
+    margin-bottom: 0;
+    color: #F74D4D;
+    
+}
+.transaction{
+    width: 30%;
+    margin-left: 4rem;
+}
+.main-content{
+    background-color: #303030;
+    display: flex;
+    height: 8rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.left-side{
+    width: 5rem;
+    height: 5rem;
+    background-color: #303030;
+}
+.left-side img{
+    width: 100%;
+    height: 7rem;
+}
+.right-side{
+    width: 10rem;
+    background-color: #303030;
+    padding-left: 5px;
+}
+.right-side h5{
+    background-color: #303030;
+}
+.right-side p{
+    background-color: #303030;
+    font-size: 10px;
+    color: #F74D4D;
+}
+.price{
+    font-size:10px ;
+    background-color: #303030;
+    margin-bottom: 2rem;
+}
+.price label{
+    background-color: #303030;
+}
+.price-money{
+    font-weight: 500;
+    background-color: #303030;
+    font-size: 12px;
+}
+.price-money label{
+    background-color: #303030;
+    
+}
+.right-image{
+    background-color: #303030;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.transaction .main-content .right-image img{
+    width: 5rem;
+    height: 4rem;
+    background-color: #303030;
+}
+
+
+
+
+
+
+

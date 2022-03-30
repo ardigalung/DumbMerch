@@ -1,0 +1,75 @@
+*{
+    color: white;
+    background-color: #0B0B0B;
+}
+
+.navbar{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.navbar .left{
+    width: 50%;
+}
+.left img{
+    width: 70px;
+    margin-left: 20px;
+}
+.navbar .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right ul{
+    display: flex;
+}
+.right ul li{
+    margin-right: 2rem;
+    list-style-type: none;
+    font-weight: 500;
+}
+.product {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+.product-main{
+    margin-top: 20px;
+    width: 70%;
+}
+
+th{
+    width: 30rem;
+    text-align: left;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #303030;
+    border: none;
+}
+tr td:nth-child(odd){
+    background-color: #232323;
+    padding: 8px;
+    border-top: 1px solid white;
+}
+tr td:nth-child(even){
+    background-color: #232323;
+    padding: 8px;
+    border-top: 1px solid white;
+}
+button{
+    border: none;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:nth-child(1){
+    background-color: #56C05A;
+    margin-right: 1rem;
+}
+button:nth-child(2){
+    background-color: #F74D4D;
+}

@@ -6,14 +6,15 @@ import './index.css';
 //import Register from './Register.js'
 //import UserShop from './UserShop.js'
 //import DetailPage from './DetailPage.js'
-import EditCategory from './EditCategory'
+//import EditCategory from './EditCategory'
+import Confirm from './ConfirmCategory.js'
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    < EditCategory />
+    < Confirm />
   </React.StrictMode>,
   document.getElementById('root')
 );

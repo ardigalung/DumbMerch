@@ -2,7 +2,7 @@ import React from 'react'
 import './assets/Profil.css'
 import Logo from './assets/logo.png'
 import Image1 from './assets/camylla.jpg'
-
+import { Link } from "react-router-dom";
 
 function Profil() {
   return (
@@ -15,7 +15,7 @@ function Profil() {
           <div className='right-list'>
             <ul>
               <li>
-                <a href=''>Complain</a>
+                <Link to='/'>login</Link>
               </li>
               <li>
                 <a href='' className='profil'>Profil</a>
